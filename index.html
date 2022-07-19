@@ -19,12 +19,164 @@
   </head>
   <body>
     <div class="container">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#menu" class="navigation__link">Menu</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#our-story" class="navigation__link">Our Story</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contact us" class="navigation__link">Contact Us</a>
+            </li>
+          </ul>
+          <form action="" class="navigation__form">
+            <input type="text" name="search" class="navigation__search" />
+          </form>
+        </nav>
+      </header>
       <main class="content">
-        <section class="home"></section>
-        <section class="menu"></section>
-        <section class="info"></section>
-        <section class="advantages"></section>
+        <section class="home">
+          <div class="row">
+            <div class="home-content col-md-5">
+              <a href="#" class="home-content__logo-link">
+                <img
+                  class="home-content__logo-image"
+                  src="./img/logo.png"
+                  alt="Logotype"
+                />
+              </a>
+              <h1 class="home-content__heading">Italian Food</h1>
+              <h2 class="home-content__sub-heading">LOREMIPSUM DOLOR</h2>
+              <button class="home-content__button">Read More</button>
+              <p class="home-content__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                iusmod tempor incididunt ut labore et dolore magna.
+              </p>
+            </div>
+            <div class="home-images col-md-7">
+              <img
+                src="./img/mainDishHome.png"
+                alt="Main Dish"
+                class="home-images__main-dish"
+              />
+              <img
+                src="./img/secondDishHome.png"
+                alt="Second Dish"
+                class="home-images__second-dish"
+              />
+              <img
+                src="./img/leafsHome.png"
+                alt="Leafs"
+                class="home-images__leafs"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="menu">
+          <h2 class="menu__heading">Lorem Ipsum Dolor</h2>
+          <p class="menu__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+          <div class="menu-cards row">
+            <div class="menu-card col-md-4">
+              <img
+                src="./img/menuDish1.png"
+                alt="Menu Dish 1"
+                class="menu-card__image"
+              />
+              <h3 class="menu-card__heading">Lorem ipsum</h3>
+              <p class="menu-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing...
+              </p>
+            </div>
+            <div class="menu-card col-md-4">
+              <img
+                src="./img/menuDish1.png"
+                alt="Menu Dish 2"
+                class="menu-card__image"
+              />
+              <h3 class="menu-card__heading">Lorem ipsum</h3>
+              <p class="menu-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing...
+              </p>
+            </div>
+            <div class="menu-card col-md-4">
+              <img
+                src="./img/menuDish1.png"
+                alt="Menu Dish 3"
+                class="menu-card__image"
+              />
+              <h3 class="menu-card__heading">Lorem ipsum</h3>
+              <p class="menu-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing...
+              </p>
+            </div>
+            <button class="menu__button">Show More</button>
+          </div>
+        </section>
+        <section class="info">
+          <h2 class="info__heading">Lorem Ipsum Dolor</h2>
+          <div class="info__blocks row">
+            <p class="info__block col-md-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex quia voluptas sit aspernatur
+            </p>
+            <p class="info__block col-md-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+          </div>
+          <button class="info__button">More Info</button>
+        </section>
+        <section class="advantages">
+          <div class="advantage-card row">
+            <img
+              class="advantage-card__image col-md-6"
+              src="./img/advantagesDish1.png"
+              alt="Advantage Dish"
+            />
+            <div class="advantage-card__content col-md-6">
+              <h2 class="advantage-card__heading">
+                Discount up to 50% All Excursions
+              </h2>
+              <p class="advantage-card__description">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              <button class="advantage-card__button">Read More</button>
+            </div>
+          </div>
+          <div class="advantage-card row flex-row-reverse">
+            <img
+              class="advantage-card__image col-md-7"
+              src="./img/advantagesDish2.png"
+              alt="Advantage Dish"
+            />
+            <div class="advantage-card__content col-md-5">
+              <h2 class="advantage-card__heading">
+                January’s Promo: Buy 1 Get 1 Free!
+              </h2>
+              <p class="advantage-card__description">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              <button class="advantage-card__button">Read More</button>
+            </div>
+          </div>
+        </section>
         <section class="pizza"></section>
         <section class="about"></section>
         <section class="subscribe"></section>

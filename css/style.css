@@ -4,9 +4,10 @@
   src: url("../fonts/Reey-Regular.otf") format("opentype");
 }
 
-h1 {
-  font-family: "Reey";
-  font-size: 10em;
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Open Sans";
 }
 
 .row {

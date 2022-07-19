@@ -1,0 +1,56 @@
+.home {}
+
+.home-content {
+
+    &__logo-link {}
+
+    &__logo-image {}
+
+    &__heading {}
+
+    &__sub-heading {}
+
+    &__button {}
+
+    &__description {}
+}
+
+.home-images {
+
+    &__main-dish {}
+
+    &__second-dish {}
+
+    &__leafs {}
+}
+
+.menu {
+
+    &__heading {}
+
+    &__description {}
+
+    .menu-cards {}
+
+    .menu-card {
+
+        &__image {}
+
+        &__heading {}
+
+        &__description {}
+    }
+
+    &__button {}
+}
+
+.info {
+
+    &__heading {}
+
+    &__blocks {}
+
+    &__block {}
+
+    &__button {}
+}
