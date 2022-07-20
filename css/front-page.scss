@@ -1,27 +1,70 @@
-.home {}
+.home {
+    background-image: url(../img/background.png);
+    color: white;
+    padding-top: 12em;
+}
 
 .home-content {
 
-    &__logo-link {}
+    &__logo-link {
+        // position: sticky;
+        // position: -webkit-sticky;
+        // top:0.5em;
+        margin-bottom: 2em;
+        display: inline-block;
+    }
 
     &__logo-image {}
 
-    &__heading {}
+    &__heading {
+        margin-bottom: 1.5em;
+        font-size: 70px;
+        font-family: "Reey";
+    }
 
-    &__sub-heading {}
+    &__sub-heading {
+        margin-bottom: 3em;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 6px;
+        font-style: italic;
+    }
 
-    &__button {}
+    &__button {
+        height: 3em;
+        margin-bottom:1em;
+        padding: 0 1.5em;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-radius: 1em;
+    }
 
-    &__description {}
+    &__description {
+        font-size: 15px;
+        font-style: italic;
+    }
 }
 
 .home-images {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 11em;
 
     &__main-dish {}
 
-    &__second-dish {}
+    &__second-dish {
+        bottom:0;
+        left:-5em;
+        position: absolute;
+    }
 
-    &__leafs {}
+    &__leafs {
+        bottom:-8em;
+        right:-3em;
+        position: absolute;
+    }   
 }
 
 .menu {
@@ -116,35 +159,4 @@
     &__submit {}
 
     &__leafs {}
-}
-
-.footer {}
-
-.additional {
-
-    &__heading {}
-
-    &__description {}
-}
-
-.social-networks {
-
-    &__item {}
-
-    &__link {}
-
-    &__image {}
-}
-
-.contents {}
-
-.content {
-
-    &__heading {}
-
-    &__link {}
-
-    &__link {}
-
-    &__item {}
 }

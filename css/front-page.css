@@ -1,1 +1,65 @@
-/* No CSS *//*# sourceMappingURL=front-page.css.map */
+.home {
+  background-image: url(../img/background.png);
+  color: white;
+  padding-top: 12em;
+}
+
+.home-content__logo-link {
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+.home-content__heading {
+  margin-bottom: 1.5em;
+  font-size: 70px;
+  font-family: "Reey";
+}
+
+.home-content__sub-heading {
+  margin-bottom: 3em;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-style: italic;
+}
+
+.home-content__button {
+  height: 3em;
+  margin-bottom: 1em;
+  padding: 0 1.5em;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 1em;
+}
+
+.home-content__description {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.home-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 11em;
+}
+
+.home-images__second-dish {
+  bottom: 0;
+  left: -5em;
+  position: absolute;
+}
+
+.home-images__leafs {
+  bottom: -8em;
+  right: -3em;
+  position: absolute;
+}
+/*# sourceMappingURL=front-page.css.map */
