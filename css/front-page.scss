@@ -211,11 +211,14 @@
         width: 10em;
         height: 10px;
         background-color: white;
+        margin-bottom: 5em;
     }
 
     &__images {}
 
     &__pizza {
+        min-width: 450px;
+        max-width: calc(1440px * 0.5);
         width: 50vw;
         left: 40%;
         bottom: -7.5em;
@@ -224,6 +227,8 @@
     }
 
     &__pizza-piece {
+        min-width: 450px*0.6;
+        max-width: calc(1440px * 0.3);
         width: 30vw;
         left: 40%;
         bottom: -9em;
@@ -232,6 +237,7 @@
     }
 
     &__leafs {
+        max-width: 1440px;
         width: 100vw;
         top: -10em;
         left: -2em;
@@ -274,50 +280,95 @@
     padding: 15em;
     position: relative;
     background-color: #27292c;
-    color:white;
+    color: white;
 
     &__heading {
-        font-size:54px;
-        font-weight:700;
-        text-align:center;
+        font-size: 54px;
+        font-weight: 700;
+        text-align: center;
     }
 
     &__description {
-        margin:2em 0; 
-        font-size:22px;
-        text-align:center;
+        margin: 2em 0;
+        font-size: 22px;
+        text-align: center;
     }
 
     &__form {
-        position:relative;
+        position: relative;
     }
 
     &__email {
-        width:calc(100% - 1em);
-        padding-left:1.5em;
+        width: calc(100% - 1em);
+        padding-left: 1.5em;
         height: 4em;
-        border-radius:2em;
+        border-radius: 2em;
     }
 
     &__submit {
         padding: 0 2em;
         height: 4em;
-        right:0.5em;
-        position:absolute;
+        right: 0.5em;
+        position: absolute;
         // font-size:20px;
-        font-weight:700;
-        text-transform:uppercase;
-        border-radius:2em;
-        background-color:#54524f;
-        color:white;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 2em;
+        background-color: #54524f;
+        color: white;
     }
 
     &__leafs {
+        max-width: 1440px;
         width: 100vw;
         top: -2.5em;
-        left:-2.5em;
+        left: -2.5em;
         // left:-2em;
         // transform:translate(-50%,-50%);  
         position: absolute;
+    }
+}
+
+@media(max-width:1024px) {
+    .home-content__description{
+        text-align:center;
+    }
+    .pizza {
+        padding-bottom: 25em !important;
+
+        &__pizza-piece {
+            bottom: -5.5em !important;
+        }
+
+        &__pizza {
+            bottom: -4em !important;
+        }
+    }
+
+    .advantage-card * {
+        margin-bottom: 1em;
+    }
+
+    .home-content__button, .home-content__logo-link, .advantage-card__button {
+        transform: translateX(-50%) !important;
+        margin-left: 50% !important;
+    }
+
+    .about-cards {
+        margin-bottom: 5em !important;
+    }
+
+    .about-card__description {
+        padding: 0 20% !important;
+    }
+
+    .subscription {
+        padding-top: 10em !important;
+        padding-bottom: 5em !important;
+
+        &__leafs {
+            // top: -4em !important;
+            left: -1em !important;
+        }
     }
 }
