@@ -71,8 +71,22 @@ section {
     padding-left: 5%;
     z-index: 0;
 }
+button{
+    border:none;
+}
 button:hover{
-    transform:scale(1.05)!important;
+    // transform:scale(1.05)!important;
+    background-color: #000;
+    color:#ccc;
+    // transition:0.5s;
+}
+button.dark:hover{
+    // transform:scale(1.05)!important;
+    background-color: #ccc;
+    color:#000;
+    // border-color:#ccc;
+    // border-style: solid;
+    // transition:0.5s;
 }
 
 .self-spin {
