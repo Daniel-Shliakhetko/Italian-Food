@@ -11,6 +11,9 @@ body {
     scroll-behavior: smooth;
     font-family: "Open Sans";
 }
+body *{
+    z-index:5;
+}
 
 a {
     text-decoration: none;
@@ -32,7 +35,8 @@ input {
     }
 }
 
-.disable-select {
+.disable-select, img {
+    z-index:3;
     user-select: none;
     /* supported by Chrome and Opera */
     -webkit-user-select: none;
@@ -55,6 +59,30 @@ input {
 
 .row {}
 
+section {
+    padding-right: 5%;
+    padding-left: 5%;
+    z-index:0;
+}
+
+.self-spin{
+    animation: 10s infinite spin;
+}
+@keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -8em;
+    visibility: hidden;
+}
+
 .header {
     width: 100%;
     min-height: 4em;
@@ -65,11 +93,6 @@ input {
     position: fixed;
     background-image: url(../img/background.png);
     z-index: 10;
-}
-
-section {
-    padding-right: 5%;
-    padding-left: 5%;
 }
 
 .navigation {

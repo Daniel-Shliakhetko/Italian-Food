@@ -186,51 +186,138 @@
 }
 
 .pizza {
+    padding-bottom: 35em !important;
+    padding: 10em 0;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
     background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    color: white;
 
-    &__heading {}
+    &__heading {
+        font-size: 60px;
+        font-family: "Reey";
+        text-align: center;
+        margin-bottom: 1em;
+    }
 
-    &__description {}
+    &__description {
+        padding: 0 25%;
+        font-size: 18px;
+        text-align: center;
+    }
 
-    &__divider {}
+    &__divider {
+        width: 10em;
+        height: 10px;
+        background-color: white;
+    }
 
     &__images {}
 
-    &__pizza {}
+    &__pizza {
+        width: 50vw;
+        left: 40%;
+        bottom: -7.5em;
+        position: absolute;
+        transform: translateX(-25%);
+    }
 
-    &__pizza-piece {}
+    &__pizza-piece {
+        width: 30vw;
+        left: 40%;
+        bottom: -9em;
+        position: absolute;
+        transform: translateX(-75%);
+    }
 
-    &__leafs {}
+    &__leafs {
+        width: 100vw;
+        top: -10em;
+        left: -2em;
+        position: absolute;
+    }
 }
 
 .about {
+    padding: 7.5em 10%;
 
-    &__description {}
+    &__description {
+        padding: 0 15%;
+        margin-bottom: 2em;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+    }
 
-    &__sub-description {}
+    &__sub-description {
+        font-weight: 700;
+        text-align: center;
+    }
 }
 
-.about-cards {}
+.about-cards {
+    margin-bottom: 10em;
+}
 
 .about-card {
 
-    &__heading {}
+    &__heading {
+        font-family: "Reey";
+        margin-bottom: 1em;
+    }
 
     &__description {}
 }
 
 .subscription {
+    padding: 15em;
+    position: relative;
     background-color: #27292c;
+    color:white;
 
-    &__heading {}
+    &__heading {
+        font-size:54px;
+        font-weight:700;
+        text-align:center;
+    }
 
-    &__description {}
+    &__description {
+        margin:2em 0; 
+        font-size:22px;
+        text-align:center;
+    }
 
-    &__form {}
+    &__form {
+        position:relative;
+    }
 
-    &__email {}
+    &__email {
+        width:calc(100% - 1em);
+        padding-left:1.5em;
+        height: 4em;
+        border-radius:2em;
+    }
 
-    &__submit {}
+    &__submit {
+        padding: 0 2em;
+        height: 4em;
+        right:0.5em;
+        position:absolute;
+        // font-size:20px;
+        font-weight:700;
+        text-transform:uppercase;
+        border-radius:2em;
+        background-color:#54524f;
+        color:white;
+    }
 
-    &__leafs {}
+    &__leafs {
+        width: 100vw;
+        top: -2.5em;
+        left:-2.5em;
+        // left:-2em;
+        // transform:translate(-50%,-50%);  
+        position: absolute;
+    }
 }

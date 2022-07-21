@@ -175,10 +175,131 @@
 }
 
 .pizza {
+  padding-bottom: 35em !important;
+  padding: 10em 0;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
   background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.pizza__heading {
+  font-size: 60px;
+  font-family: "Reey";
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.pizza__description {
+  padding: 0 25%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pizza__divider {
+  width: 10em;
+  height: 10px;
+  background-color: white;
+}
+
+.pizza__pizza {
+  width: 50vw;
+  left: 40%;
+  bottom: -7.5em;
+  position: absolute;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+}
+
+.pizza__pizza-piece {
+  width: 30vw;
+  left: 40%;
+  bottom: -9em;
+  position: absolute;
+  -webkit-transform: translateX(-75%);
+          transform: translateX(-75%);
+}
+
+.pizza__leafs {
+  width: 100vw;
+  top: -10em;
+  left: -2em;
+  position: absolute;
+}
+
+.about {
+  padding: 7.5em 10%;
+}
+
+.about__description {
+  padding: 0 15%;
+  margin-bottom: 2em;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about__sub-description {
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-cards {
+  margin-bottom: 10em;
+}
+
+.about-card__heading {
+  font-family: "Reey";
+  margin-bottom: 1em;
 }
 
 .subscription {
+  padding: 15em;
+  position: relative;
   background-color: #27292c;
+  color: white;
+}
+
+.subscription__heading {
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscription__description {
+  margin: 2em 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.subscription__form {
+  position: relative;
+}
+
+.subscription__email {
+  width: calc(100% - 1em);
+  padding-left: 1.5em;
+  height: 4em;
+  border-radius: 2em;
+}
+
+.subscription__submit {
+  padding: 0 2em;
+  height: 4em;
+  right: 0.5em;
+  position: absolute;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 2em;
+  background-color: #54524f;
+  color: white;
+}
+
+.subscription__leafs {
+  width: 100vw;
+  top: -2.5em;
+  left: -2.5em;
+  position: absolute;
 }
 /*# sourceMappingURL=front-page.css.map */
