@@ -67,6 +67,11 @@ section {
   z-index: 0;
 }
 
+button:hover {
+  -webkit-transform: scale(1.05) !important;
+          transform: scale(1.05) !important;
+}
+
 .self-spin {
   -webkit-animation: 10s infinite spin;
           animation: 10s infinite spin;
