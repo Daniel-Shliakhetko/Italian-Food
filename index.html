@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="./modules/aos-master/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/front-page.css" />    
+    <link rel="stylesheet" href="./css/front-page.css" />
   </head>
   <body>
     <div class="container">
@@ -38,7 +38,12 @@
           </ul>
           <form action="" class="navigation__form">
             <input type="text" name="search" class="navigation__search" />
-            <input type="submit" name="submit" class="navigation__submit" value=""/>
+            <input
+              type="submit"
+              name="submit"
+              class="navigation__submit"
+              value=""
+            />
           </form>
         </nav>
       </header>
@@ -46,17 +51,39 @@
         <section class="home">
           <div class="row">
             <div class="home-content col-md-5">
-              <a href="#" class="home-content__logo-link">
+              <a data-aos="flip-left" href="#" class="home-content__logo-link">
                 <img
                   class="home-content__logo-image"
                   src="./img/logo.png"
                   alt="Logotype"
                 />
               </a>
-              <h1 class="home-content__heading">Italian Food</h1>
-              <h2 class="home-content__sub-heading">LOREMIPSUM DOLOR</h2>
-              <button class="home-content__button">Read More</button>
-              <p class="home-content__description">
+              <h1
+                data-aos-offset="-300"
+                data-aos="fade-left"
+                class="home-content__heading"
+              >
+                Italian Food
+              </h1>
+              <h2
+                data-aos-offset="-300"
+                data-aos="fade-left"
+                class="home-content__sub-heading"
+              >
+                LOREMIPSUM DOLOR
+              </h2>
+              <button
+                data-aos-offset="-300"
+                data-aos="flip-left"
+                class="home-content__button"
+              >
+                Read More
+              </button>
+              <p
+                data-aos-offset="-300"
+                data-aos="fade-left"
+                class="home-content__description"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 iusmod tempor incididunt ut labore et dolore magna.
               </p>
@@ -82,13 +109,13 @@
         </section>
         <section class="menu">
           <div class="anchor" id="menu"></div>
-          <h2 class="menu__heading">Lorem Ipsum Dolor</h2>
-          <p class="menu__description">
+          <h2 data-aos="flip-left" class="menu__heading">Lorem Ipsum Dolor</h2>
+          <p data-aos="fade-left" class="menu__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum.
           </p>
           <div class="menu-cards row">
-            <div class="menu-card col-md-4">
+            <div data-aos="fade-right" class="menu-card col-md-4">
               <img
                 src="./img/menuDish1.png"
                 alt="Menu Dish 1"
@@ -99,7 +126,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing...
               </p>
             </div>
-            <div class="menu-card col-md-4">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              class="menu-card col-md-4"
+            >
               <img
                 src="./img/menuDish2.png"
                 alt="Menu Dish 2"
@@ -110,7 +141,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing...
               </p>
             </div>
-            <div class="menu-card col-md-4">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="600"
+              class="menu-card col-md-4"
+            >
               <img
                 src="./img/menuDish3.png"
                 alt="Menu Dish 3"
@@ -121,70 +156,105 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing...
               </p>
             </div>
-            <button class="menu__button">Show More</button>
+            <button data-aos="flip-left" class="menu__button">Show More</button>
           </div>
         </section>
         <section class="info">
-          <h2 class="info__heading">Lorem Ipsum Dolor</h2>
+          <h2 data-aos="flip-left" class="info__heading">Lorem Ipsum Dolor</h2>
           <div class="info__blocks row">
-            <p class="info__block col-md-6">
+            <p data-aos="fade-left" class="info__block col-md-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex quia voluptas sit aspernatur
             </p>
-            <p class="info__block col-md-6">
+            <p
+              data-aos-delay="300"
+              data-aos="fade-left"
+              class="info__block col-md-6"
+            >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip.
             </p>
-          <button class="info__button">More Info</button>
-
+            <button data-aos="flip-left" class="info__button">More Info</button>
           </div>
         </section>
         <section class="advantages">
           <div class="advantage-card row">
             <img
+              data-aos="flip-left"
               class="advantage-card__image col-md-6"
               src="./img/advantagesDish1.png"
               alt="Advantage Dish"
             />
             <div class="advantage-card__content col-md-6">
-              <h2 class="advantage-card__heading">
+              <h2
+                data-aos-delay="300"
+                data-aos="flip-left"
+                class="advantage-card__heading"
+              >
                 Discount up to 50% All Excursions
               </h2>
-              <p class="advantage-card__description">
+              <p
+                data-aos-delay="300"
+                data-aos="fade-left"
+                class="advantage-card__description"
+              >
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              <button class="advantage-card__button">Read More</button>
+              <button
+                data-aos-delay="300"
+                data-aos="flip-left"
+                class="advantage-card__button"
+              >
+                Read More
+              </button>
             </div>
           </div>
           <div class="advantage-card row flex-row-reverse">
             <img
+              data-aos="flip-right"
               class="advantage-card__image col-md-7"
               src="./img/advantagesDish2.png"
               alt="Advantage Dish"
             />
             <div class="advantage-card__content col-md-5">
-              <h2 class="advantage-card__heading">
+              <h2
+                data-aos-delay="300"
+                data-aos="flip-right"
+                class="advantage-card__heading"
+              >
                 January’s Promo: Buy 1 Get 1 Free!
               </h2>
-              <p class="advantage-card__description">
+              <p
+                data-aos-delay="300"
+                data-aos="fade-right"
+                class="advantage-card__description"
+              >
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              <button class="advantage-card__button">Read More</button>
+              <button
+                data-aos-delay="300"
+                data-aos="flip-right"
+                class="advantage-card__button"
+              >
+                Read More
+              </button>
             </div>
           </div>
         </section>
         <section class="pizza">
           <div class="anchor" id="our-story"></div>
-          <h2 class="pizza__heading">Lorem Ipsum Dolor Sit Amer</h2>
-          <p class="pizza__description">
+          <h2 data-aos-offset="150" data-aos="flip-left" class="pizza__heading">
+            Lorem Ipsum Dolor Sit Amer
+          </h2>
+          <p  data-aos-offset="200" data-aos="fade-left" class="pizza__description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis
@@ -202,21 +272,21 @@
         </section>
         <section class="about">
           <div class="about-cards row">
-            <div class="about-card col-md-4">
+            <div data-aos="fade-left" class="about-card col-md-4">
               <h1 class="about-card__heading">Lorem Ipsum</h1>
               <p class="about-card__description">
                 Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit,
                 tation omne ullamco laboris nisi ut aliqolore.
               </p>
             </div>
-            <div class="about-card col-md-4">
+            <div data-aos-delay="300" data-aos="fade-left" class="about-card col-md-4">
               <h1 class="about-card__heading">Lorem Ipsum</h1>
               <p class="about-card__description">
                 Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit,
                 tation omne ullamco laboris nisi ut aliqolore.
               </p>
             </div>
-            <div class="about-card col-md-4">
+            <div data-aos-delay="600" data-aos="fade-left" class="about-card col-md-4">
               <h1 class="about-card__heading">Lorem Ipsum</h1>
               <p class="about-card__description">
                 Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit,
@@ -224,21 +294,21 @@
               </p>
             </div>
           </div>
-          <p class="about__description">
+          <p data-aos="flip-left" class="about__description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis
           </p>
-          <p class="about__sub-description">Lorem Ipsum</p>
+          <p data-aos="flip-left" class="about__sub-description">Lorem Ipsum</p>
         </section>
         <section class="subscription">
           <div class="anchor" id="contact-us"></div>
-          <h2 class="subscription__heading">Title Here</h2>
-          <p class="subscription__description">
+          <h2 data-aos="flip-left" class="subscription__heading">Title Here</h2>
+          <p data-aos="fade-left" class="subscription__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum.
           </p>
-          <form action="" class="subscription__form">
+          <form data-aos="flip-left" action="" class="subscription__form">
             <input
               type="email"
               class="subscription__email"
@@ -259,13 +329,13 @@
       </main>
       <footer class="footer row">
         <div class="footer-additional col-md-5">
-          <h2 class="footer-additional__heading">Title Here</h2>
-          <p class="footer-additional__description">
+          <h2 data-aos="fade-left" class="footer-additional__heading">Title Here</h2>
+          <p data-aos="fade-left" class="footer-additional__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
             dignissim nunc, id maximus ex. Etiam nec dignissim elit, at
             dignissim enim.
           </p>
-          <ul class="social-networks">
+          <ul data-aos="fade-left" class="social-networks">
             <li class="social-networks__item">
               <a href="#" class="social-networks__link">
                 <img
@@ -306,8 +376,8 @@
         </div>
         <div class="footer-contents col-md-7 row">
           <div class="footer-content col-md-4">
-            <h3 class="footer-content__heading">About</h3>
-            <ul class="footer-content__list">
+            <h3 data-aos-delay="200" data-aos="fade-left" class="footer-content__heading">About</h3>
+            <ul data-aos-delay="200" data-aos="fade-left" class="footer-content__list">
               <li class="footer-content__item">
                 <a href="#" class="footer-content__link">History</a>
               </li>
@@ -326,8 +396,8 @@
             </ul>
           </div>
           <div class="footer-content col-md-4">
-            <h3 class="footer-content__heading">Services</h3>
-            <ul class="footer-content__list">
+            <h3 data-aos-delay="400" data-aos="fade-left" class="footer-content__heading">Services</h3>
+            <ul data-aos-delay="400" data-aos="fade-left" class="footer-content__list">
               <li class="footer-content__item">
                 <a href="#" class="footer-content__link">How to Order</a>
               </li>
@@ -346,8 +416,8 @@
             </ul>
           </div>
           <div class="footer-content col-md-4">
-            <h3 class="footer-content__heading">Other</h3>
-            <ul class="footer-content__list">
+            <h3 data-aos-delay="600" data-aos="fade-left" class="footer-content__heading">Other</h3>
+            <ul data-aos-delay="600" data-aos="fade-left" class="footer-content__list">
               <li class="footer-content__item">
                 <a href="#" class="footer-content__link">Contact Us</a>
               </li>
