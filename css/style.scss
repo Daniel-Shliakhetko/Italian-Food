@@ -5,6 +5,35 @@
     src: url("../fonts/Reey-Regular.otf") format("opentype");
 }
 
+.loader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #343434;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    z-index:100;
+    opacity:1;
+    transition:0.5s;
+    & img{
+        animation: 0.5s loadingImage infinite;
+    }
+}
+@keyframes loadingImage {
+    0%{
+        transform:rotate(-15deg);
+    }
+    50%{
+        transform:rotate(15deg);
+    }
+    100%{
+        transform:rotate(-15deg);
+    }
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -71,19 +100,22 @@ section {
     padding-left: 5%;
     z-index: 0;
 }
-button{
-    border:none;
+
+button {
+    border: none;
 }
-button:hover{
+
+button:hover {
     // transform:scale(1.05)!important;
     background-color: #000;
-    color:#ccc;
+    color: #ccc;
     // transition:0.5s;
 }
-button.dark:hover{
+
+button.dark:hover {
     // transform:scale(1.05)!important;
     background-color: #ccc;
-    color:#000;
+    color: #000;
     // border-color:#ccc;
     // border-style: solid;
     // transition:0.5s;
@@ -245,12 +277,14 @@ button.dark:hover{
         padding-left: 0.5em !important;
         padding-right: 0.5em !important;
     }
-.navigation{
-    padding:0.5em!important;
-}
+
+    .navigation {
+        padding: 0.5em !important;
+    }
+
     .navigation__list {
-        margin-right: 0.5em!important;
-        padding:0!important;
+        margin-right: 0.5em !important;
+        padding: 0 !important;
         width: 100% !important;
     }
 
