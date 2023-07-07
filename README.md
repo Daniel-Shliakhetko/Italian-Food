@@ -1,4 +1,4 @@
-# Italish-Food
+# Italian Food
 That's front page for Italish Food Restaurant. Non comercial website just portfolio.
 
 Used Technologies:
